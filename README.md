@@ -4,7 +4,8 @@
 1. [Project Motivation](#motivation)
 2. [File Descriptions](#files)
 3. [Results](#results)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Data Modelling](#DataModelling)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -44,6 +45,16 @@ The main findings of the code can be found below
 
 #### Accuracy After Hyperparameter Tuning
 ![Histt22222](https://user-images.githubusercontent.com/55012359/130058870-0e95e518-be58-476d-9073-1c0668ec798c.png)
+
+## Data Modelling
+A total of 2 different models were used for prediction cross validation were the primary metrics used for evaluating the models. 
+
+#Model,	R2
+
+- RandomForest:	0.82145
+
+- Gradient Boosting Regressor:	0.84524
+- Based on cross-validation R2, it can be observed that the Gradient Boosting Regressor model have the highest variability Explained.
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
